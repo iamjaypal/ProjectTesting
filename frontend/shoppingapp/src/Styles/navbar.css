@@ -1,0 +1,45 @@
+.navbar{
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 2rem;
+}
+
+.nav-left{
+    
+    padding: 1rem;
+    display: flex;
+    gap: 10px;
+}
+.nav-left a{
+    text-decoration: none;
+    font-size: 30px;
+}
+.nav-left img{
+    width: 60px;
+    height: 30px;
+}
+.nav-center .nav-links{
+    list-style-type: none;
+    display: flex;
+    gap: 5rem;
+    padding: 1rem;
+    font-size: 20px;
+
+}
+.nav-links li a{
+    text-decoration: none;
+}
+
+.nav-right{
+    border: 1px solid yellow;
+    padding: 1rem;
+    display: flex;
+    gap: 5rem;
+    font-size: 20px;
+}
+.nav-right a{
+    text-decoration: none;
+   
+}
